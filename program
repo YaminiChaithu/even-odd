@@ -1,0 +1,26 @@
+#include <stdio.h>
+void even_odd(int a);
+
+int main()
+{
+    int n;
+
+    printf("Enter any number to check even or odd: ");
+    scanf("%d",&n);
+
+    even_odd(n);
+
+    return 0;
+}
+
+void even_odd(int a)
+{
+    if(a%2==0)
+    {
+        printf("EVEN\n");
+    }
+    else
+    {
+        printf("ODD\n");
+    }
+}
